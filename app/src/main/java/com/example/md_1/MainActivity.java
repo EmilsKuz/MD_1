@@ -45,6 +45,5 @@ public class MainActivity extends AppCompatActivity {
             Bitmap finalPhoto = (Bitmap) bundle.get("data");
             imageView1.setImageBitmap(finalPhoto);
         }
-
     }
 }
